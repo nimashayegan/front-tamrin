@@ -1,0 +1,58 @@
+div{
+width: 800px;
+height: 500px;
+border: 1px solid red;
+}
+
+.button1{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(13, 172, 39);
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+    top: 50px;
+    left: 150px;
+    color: white;
+    font-size: large;
+}
+
+.button2{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(198, 199, 198);
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+    top: 100px;
+    left: 150px;
+    color: rgb(13, 172, 39);
+    font-size: large;
+}
+
+.button3{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 1px solid rgb(134, 135, 134);
+    position: relative;
+    top: 150px;
+    left: 150px;
+    color: rgb(13, 172, 39);
+    font-size: large;
+}
+
+.button4{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+    top: 200px;
+    left: 150px;
+    color: rgb(13, 172, 39);
+    font-size: large;
+    direction: unset;
+}
