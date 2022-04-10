@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.div-1{
+    height: 500px;
+    padding-left: 200px;
+    padding-top: 250px;
+    margin: 100px;
+    background-color: lightsteelblue;
+}
+
+.btn{
+    --height: 40px;
+    height: var(--height);
+    border-radius: calc( var(--height) / 2 );
+    margin: max(8px, calc(48px - var(--height))) 0px 0px 16px;
+    padding: 0 24px;
+    line-height: calc(var(--height) - 4px);
+    vertical-align: middle;
+
+    text-align: center;
+    /* min-width: 300px; */
+    /* font-family: Roboto , sans-serif; */
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.1em;
+	border: 2px solid transparent;
+
+    display: inline-block;
+    align-items: normal;
+    text-decoration: none;
+    cursor: pointer;
+
+    color: darkslateblue;
+}
+
+.btn > *{
+    vertical-align: middle;
+}
+
+/* .btn.primary{
+    background-color: var(--primary);
+    color: var(--on-primary);
+} */
+
+
+
+.b1:enabled{
+    background-color: #1E192B;
+    color: lightsteelblue;
+}
+
+
+
+
+.b2:disabled{
+    opacity: 0.8;
+    cursor: default;
+}
+
+
+
+.b3:hover{
+    background-color: #1E192B;
+    color: lightsteelblue;
+}
+
+
+.b4:focus{
+    background-color: #1E192B;
+    color: lightsteelblue;
+}
+
+
+.b5:active{
+    background-color: #1E192B;
+    color: lightsteelblue;
+    
+}
+
+
+.b6:enabled{
+    background-color: #1E192B;
+    color: lightsteelblue;
+}
+
+.b6:hover{
+opacity: 0.5;
+}
+
+.b6:active{
+    background-color: #cab9f5;
+    color: rgb(187, 72, 6);
+}
+
+
+a{
+    margin: 0px 25px;
+    font-size: x-large;
+}
+
+.a1:visited{
+    color: #1E192B;
+}
+
+.a2:hover{
+    color: crimson;
+}
+
+.a3:focus{
+    color: lightcoral;
+}
+
+.a4:active{
+    color: limegreen;
+}
+
+.a5{
+    text-decoration: none;
+}
+
+
