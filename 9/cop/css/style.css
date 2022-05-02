@@ -1,0 +1,12 @@
+
+@import url("/cop/css/compont/card.css");
+@import url("/cop/css/compont/but.css");
+@import url("/cop/css/lay/grid.css");
+*{
+    direction: rtl;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ 
